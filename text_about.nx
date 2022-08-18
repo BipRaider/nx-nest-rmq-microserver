@@ -1,0 +1,24 @@
+https://nx.dev/using-nx/nx-cli
+
+npx create-nx-workspace purple --preset=nest
+
+nx list / list commands
+
+nx g @nrwl/nest:lib <lib-name> / добовляем библиотеку для проэктов
+nx g @nrwl/nest:app <app-name> / создаём еще один проэкт
+
+//create files for project
+nx g @nrwl/nest:<name method> app/<name file> --project=<name folder>
+
+nx g @nrwl/nest:module app/<name> --project=account
+nx g @nrwl/nest:controller app/<name> --project=account
+nx g @nrwl/nest:service app/<name> --project=account
+nx g @nrwl/nest:resolver app/<name> --project=account
+
+
+nx g module app/user --project=account
+
+// for work with cron and this can give us the possibility to create decorators
+npm install --save @nestjs/schedule
+npm install --save-dev @types/cron
+//

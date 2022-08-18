@@ -1,0 +1,15 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "account": "apps/account",
+    "api": "apps/api",
+    "contracts": "libs/contracts",
+    "email": "apps/email",
+    "files": "apps/files",
+    "interfaces": "libs/interfaces",
+    "order": "apps/order",
+    "product": "apps/product",
+    "users": "apps/users"
+  }
+}
